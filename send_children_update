@@ -1,0 +1,47 @@
+The goal:
+
+Send an email to my x with information collected from a form and formatted in a "nice manner". The email should be triggered 
+by a calendar event.
+
+Form questions: 
+  
+  Sleep assesment 1-5    
+  Food intake assesment 1-5
+  Genereal condition assesment 1-5
+  
+  What each child has been eating for lunch and dinner
+  
+  If they have showered
+  
+  Anything else worth mentioning
+  
+  If the are sick 
+    if they are sick you will be transfered tp a "Sick section" with the following questions:
+  
+    Fever (numeric value)
+    
+    Medicin intake
+    
+    Amount of medicin
+    
+Then the same questions will loop over again with the second child.
+
+The idea is that the form is filled in once a day, or when necessary (medicin intake, fever)
+    
+When the message is created it will check the calender for what days the children have stayed with me and summarize each day.
+
+  Based on the answers in the assesment question different strings will be included in the email. 
+  
+    Sleep assesment: 1 = "xx has been sleeping very poorly", or 4 = "xx has slept good" 
+
+  An email draft:
+  
+    Monday 6/1
+    xx has slept poorly. We ate oatmeal for lunch and milk for dinner and xx ate well. She has showered and played 
+    with her cousine in the evening.
+    
+    Thuesday 6/2
+    xx has slept very well! We ate frogs for lunch and elk for dinner and xx ate porly. xx got fever (39,2 degrees C) 
+  
+
+    
