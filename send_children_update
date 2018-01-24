@@ -19,9 +19,7 @@ Form questions:
     if they are sick you will be transfered tp a "Sick section" with the following questions:
   
     Fever (numeric value)
-    
     Medicin intake
-    
     Amount of medicin
     
 Then the same questions will loop over again with the second child.
@@ -41,7 +39,8 @@ When the message is created it will check the calender for what days the childre
     with her cousine in the evening.
     
     Thuesday 6/2
-    xx has slept very well! We ate frogs for lunch and elk for dinner and xx ate porly. xx got fever (39,2 degrees C) 
+    xx has slept very well! We ate frogs for lunch and elk for dinner and xx ate porly. xx got fever (39,2 degrees C). 
+    I gave her Ipren 5ml 8pm. And so on..
   
 
     
